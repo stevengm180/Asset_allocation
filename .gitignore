@@ -1,0 +1,33 @@
+# Environnement
+.venv/
+env/
+venv/
+*.egg-info/
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+
+# Données brutes (grandes tailles)
+data/raw/*.csv
+data/raw/*.parquet
+data/raw/*.pkl
+
+# Outputs et résultats
+outputs/
+models/saved_models/
+
+# Fichiers temporaires
+*.tmp
+*.log
+*.swp
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
