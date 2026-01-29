@@ -8,10 +8,10 @@ __pycache__/
 .DS_Store
 .ipynb_checkpoints/
 
-# Données brutes (grandes tailles)
-data/raw/*.csv
-data/raw/*.parquet
-data/raw/*.pkl
+# Données brutes (grandes tailles) - TRACKED BY GIT LFS
+# data/raw/*.csv     <- Tracked with Git LFS
+# data/raw/*.parquet
+# data/raw/*.pkl
 
 # Outputs et résultats
 outputs/
